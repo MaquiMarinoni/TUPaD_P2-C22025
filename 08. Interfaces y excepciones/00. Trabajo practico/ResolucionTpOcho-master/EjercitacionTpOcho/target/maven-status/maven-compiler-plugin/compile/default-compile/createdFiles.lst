@@ -1,0 +1,10 @@
+Interfaces\Main.class
+Interfaces\Pago.class
+Interfaces\PagoConTarjeta.class
+Interfaces\PagoConDescuento.class
+Interfaces\Notificable.class
+Interfaces\PagoConPayPal.class
+Interfaces\Cliente.class
+Interfaces\Pagable.class
+Interfaces\Producto.class
+Interfaces\Pedido.class
