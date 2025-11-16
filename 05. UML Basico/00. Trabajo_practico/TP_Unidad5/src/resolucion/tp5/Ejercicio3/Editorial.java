@@ -1,0 +1,26 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package resolucion.tp5.Ejercicio3;
+
+/**
+ *
+ * @author marinon
+ */
+// Agregación: puede existir sin el Libro
+public class Editorial {
+    private String nombre;
+    private String cuit;
+
+    public Editorial(String nombre, String cuit) {
+        this.nombre = nombre;
+        this.cuit = cuit;
+    }
+
+    @Override
+    public String toString() {
+        return "Editorial{nombre='" + nombre + "', cuit='" + cuit + "'}";
+    }
+
+}
